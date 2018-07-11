@@ -1,0 +1,29 @@
+* {
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 400;
+  font-size: 1.6em;
+}
+
+header {
+  background: #06D6A0;
+  padding: 20px;
+  text-align: center;
+}
+
+.logo {
+  color: #fff;
+  font-size: 2em;
+  font-weight: 700;
+}
+
+.main-nav li {
+  margin-bottom: 5px;
+}
