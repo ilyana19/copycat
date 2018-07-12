@@ -18,12 +18,91 @@ header {
   text-align: center;
 }
 
+img {
+  width: 100%;
+}
+
+h3, p {
+  padding: 0.5em 0;
+}
+
 .logo {
   color: #fff;
   font-size: 2em;
   font-weight: 700;
 }
 
+.main-nav {
+  padding: 1em 0;
+}
+
 .main-nav li {
   margin-bottom: 5px;
+}
+
+.top-content {
+  padding: 1em 0;
+  text-align: center;
+}
+
+.top-content h2 {
+  font-size: 1.8em;
+  font-weight: 700;
+  padding-bottom: 5px;
+  border-bottom: 5px solid #EF476F;
+  display: inline-block;
+}
+
+.panel-background {
+  padding: 30px 20px;
+}
+
+#cats.panel-background {
+  background: #ffd166;
+}
+
+#products.panel-background {
+  background: #f2f2f2;
+}
+
+#about.panel-background {
+  background: #26547c;
+}
+
+.panel-background h3 {
+  font-size: 1.6em;
+  font-weight: 700;
+}
+
+.product-wrapper {
+  padding: 0.5em 0;
+}
+
+.product-item {
+  margin: 5px 0;
+}
+
+/* float: left;
+width: 33.33333%;
+text-transform: uppercase;
+text-align: center;
+color: #EF476F; */
+
+.team-wrapper {
+  display: grid;
+  grid-template-columns: 33.33% 33.33% 33.33%;
+  justify-items: center;
+}
+
+.teams {
+  color: #EF476F;
+  text-transform: uppercase;
+}
+
+footer {
+  background: #06d6a0;
+  height: 50px;
+  line-height: 50px;
+  text-align: right;
+  padding: 0 20px;
 }
