@@ -103,10 +103,6 @@ footer {
 
 /* Media Queries */
 @media screen and (min-width: 550px) {
-  /* .logo, nav {
-    display: inline-block;
-  }*/
-
   p {
     font-size: 1.2em;
   }
@@ -124,6 +120,10 @@ footer {
 
   nav {
     grid-column: 2 / 4;
+  }
+
+  .logo {
+    text-align: left;
   }
 
   .main-nav {
